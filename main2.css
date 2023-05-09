@@ -1,0 +1,58 @@
+html {
+	margin: 0;
+	padding: 0;
+	font-family: 'Barlow', sans-serif;
+	font-size: 20px;
+	background-size: cover;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#home {
+	margin: 0;
+	background-image: url("/projet/public/A043401-R1-01-2.JPG");
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 20px;
+	overflow: hidden;
+}
+
+li {
+	display: inline;
+
+}
+
+.links {
+	float: right;
+}
+
+
+li a {
+
+	text-align: center;
+	padding: 15px 17px;
+	text-decoration: none;
+	color: rgb(255, 255, 254);
+  }
+
+li a:hover {
+	cursor: pointer;	
+    border: 2px solid rgb(255, 255, 254);
+	border-radius: 10px;
+	padding: 5px ;
+}  
+
+
+#logo {
+	float: left;
+	width: 200px;
+	height: 120px;
+}

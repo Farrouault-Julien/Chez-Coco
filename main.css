@@ -1,0 +1,59 @@
+html {
+    font-family: 'Barlow', sans-serif;
+    background-image: url(./projet/public/A043401-R1-01-2.JPG);
+    background-size: cover;
+    scroll-snap-type: y mandatory;
+}
+
+section {
+    block-size: 100vh;
+    margin: 0;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+
+#logo {
+    margin-top: 20px;
+    width: 250px;
+    height: 130px;
+}
+
+.menu-bar {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    padding-left: 10px;
+    font-size: 60px;
+    margin-top: 200px;
+    line-height: 90px;
+}
+
+
+li {
+    list-style: none;
+}   
+
+li a {
+    text-decoration: none;
+    transition: font-size 0.5s;
+}
+
+li a:hover {
+    cursor: pointer;
+    color: rgb(255, 255, 254);
+    font-size: 80px;
+    
+}
+
+
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+
